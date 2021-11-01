@@ -1,0 +1,9 @@
+@mixin Mimixin($valor,$width){
+    height: $valor;
+    width: $width;
+}
+@each $s in 1.0rem, 1.5rem, 2.0rem, 3.0rem{
+    .font-#{$s}{
+        font-size: $s;
+    }
+}
